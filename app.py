@@ -1,14 +1,3 @@
-import sys
-import streamlit as st
-
-st.write("Python Version:", sys.version)
-
-try:
-    import tensorflow as tf
-    st.write("TensorFlow Version:", tf.__version__)
-except Exception as e:
-    st.error(f"TensorFlow Import Failed: {e}")
-    
 import streamlit as st
 import numpy as np
 import tensorflow as tf
